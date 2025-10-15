@@ -102,3 +102,23 @@ docker-compose up -d
 * Login: `POST /login`
 * Logout: `POST /logout`
 
+## Testes
+
+Os testes cobrem:
+
+CRUD completo de receitas (RecipeTest)
+
+Comentários (CommentTest)
+
+Avaliações (RatingTest)
+
+Autenticação (AuthenticationTest)
+
+Executar todos os testes:
+php artisan test
+
+
+Ou, para um relatório mais detalhado:
+
+./vendor/bin/phpunit --testdox
+
